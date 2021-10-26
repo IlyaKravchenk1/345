@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ДЗ1</title>
+</head>
+<body>
+    
+     <script>
+        var a = 1, b = 1, c, d;
+        c = ++a; alert(c); 
+        d = b++; alert(d);    
+                  
+        c = (2+ ++a); alert(c); // 5  
+                       
+        d = (2+ b++); alert(d); 
+                       
+        alert(a);
+        alert(b); 
+    </script>
+
+        <!-- Задача 2. Чему будет равен x в примере ниже? -->
+    <script>
+        var a = 2;
+        var x = 1 + (a *= 2); 
+    </script>
+
+        <!-- Задача 3. Объявить две целочисленные переменные a и b и задать им произвольные начальные значения. Затем       
+                написать скрипт, который работает по следующему принципу:
+              . -->
+    <script>
+        var a = 5;
+        var b = 3;
+        if (a > 0 && b > 0){
+        x = a - b;
+        alert(x);
+        } else if (a < 0 && b < 0){
+            x = a * b;
+            alert (x);
+            }
+          else if (a > 0 && b < 0 || a < 0 && b > 0) {
+          x = a + b;
+          alert (x);
+          }
+        
+    </script>
